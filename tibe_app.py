@@ -1,4 +1,4 @@
-import
+import streamlit as st
 # Ceci est la manière correcte d'afficher votre texte de bienvenue en Python
 st.markdown("""
 Bienvenue sur l'application officielle de gestion et de vente de TIBE.
