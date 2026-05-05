@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 
 # Configuration de la page
 st.set_page_config(page_title="TIBE SMART-HUB", page_icon="💎")
