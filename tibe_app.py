@@ -1,11 +1,4 @@
-import streamlit as st
-
-# Configuration de la page
-st.set_page_config(page_title="TIBE SMART-HUB", page_icon="💎")
-
-# Affichage du titre
-st.title("💎 TIBE SMART-HUB")
-
+import
 # Ceci est la manière correcte d'afficher votre texte de bienvenue en Python
 st.markdown("""
 Bienvenue sur l'application officielle de gestion et de vente de TIBE.
