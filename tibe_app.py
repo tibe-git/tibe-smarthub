@@ -22,4 +22,4 @@ st.info("Développé par KOLANI Tibe Mankenam - Lomé, Togo")
 # Un bouton test pour WhatsApp
 if st.button("Tester le contact WhatsApp"):
     st.write("Lien vers le 92498837 prêt !")
-  
+
