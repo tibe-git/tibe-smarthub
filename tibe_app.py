@@ -1,5 +1,12 @@
 import streamlit as st
-# Ceci est la manière correcte d'afficher votre texte de bienvenue en Python
+
+# Configuration de la page
+st.set_page_config(page_title="TIBE SMART-HUB", page_icon="💎")
+
+# Titre principal
+st.title("💎 TIBE SMART-HUB")
+
+# Texte de présentation
 st.markdown("""
 Bienvenue sur l'application officielle de gestion et de vente de TIBE.
 
@@ -12,7 +19,12 @@ Bienvenue sur l'application officielle de gestion et de vente de TIBE.
 
 st.info("Développé par KOLANI Tibe Mankenam - Lomé, Togo")
 
-# Un bouton test pour WhatsApp
-if st.button("Tester le contact WhatsApp"):
-    st.write("Lien vers le 92498837 prêt !")
+# --- LA PARTIE À MODIFIER POUR LE CONTACT ---
+st.subheader("📱 Passer une commande")
 
+# On crée le lien avec l'indicatif du Togo (228)
+numero_togo = "22892498837"
+lien_wa = f"https://wa.me/{numero_togo}"
+
+# Ce bouton est magique : il ouvre WhatsApp tout seul !
+st.link_button("🚀 Nous contacter sur WhatsApp", lien_wa)
